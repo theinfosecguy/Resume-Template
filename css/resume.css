@@ -1,0 +1,558 @@
+body {
+  margin: 0px;
+  padding-top: 0px;
+  font-family: sans-serif;
+}
+#header-res {
+  background-image: url(https://images.pexels.com/photos/205421/pexels-photo-205421.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  height: 65vh;
+  opacity: 0.8;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  padding-top: 2%;
+}
+
+#ul-list li {
+  display: inline-block;
+  color: white;
+  font-size: 1rem;
+  margin: 0px 5px 5px 0px;
+}
+#ul-list li a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  transition: color 0.5s, border-bottom 5s;
+}
+#ul-list li a:hover {
+  display: inline-block;
+  color: lightgrey;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+}
+
+#resp-mob{
+  display: none;
+}
+
+
+#main-list li {
+  display: inline-block;
+  color: white;
+  margin-top: 1%;
+}
+#main-list {
+  list-style: none;
+  margin-top: 4%;
+}
+.name-heading {
+  display: block;
+  font-size: 3rem;
+  color: white;
+  font-weight: 700;
+}
+#main-list i {
+  font-size: 1rem;
+  color: white;
+  /* margin:0px 25px 25px 0px; */
+  padding: 20px;
+  border-radius: 50%;
+}
+
+#main-list i:hover {
+  box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+/* Playing with Sections */
+
+section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-bottom: 3%;
+  align-items: center;
+}
+
+.section-heading {
+  width: auto;
+  padding: 20px 10px 10px;
+  font-weight: 400;
+}
+
+.section-heading span {
+  font-size: 1.5rem;
+  color: #2857a4;
+  display: inline-block;
+  margin-right: 0.5rem;
+  display: inline-block;
+}
+
+.section-heading i {
+  font-size: 2rem;
+  display: inline-block;
+  color: #2857a4;
+  display: inline-block;
+  margin: 5rem;
+  font-weight: 600;
+}
+section:nth-child(2n) {
+  background-color: white;
+}
+section:nth-child(2n + 1) {
+  background-color: rgb(235, 235, 235);
+}
+
+/* About Section  */
+
+.my-image {
+  position: relative;
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: -7.5rem;
+}
+
+.my-image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 1px 1px 10px 2px lightgrey;
+}
+
+.about p {
+  margin: 6% 20%;
+  text-align: justify;
+  color: rgb(114, 114, 114);
+}
+
+/* Skills Section  */
+
+.skills-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 70%;
+}
+
+.skills-progress {
+  height: 2rem;
+  width: 10rem;
+  background-color: grey;
+  border-radius: 1rem;
+  margin-bottom: 5%;
+}
+
+.skills-progress > div {
+  border-radius: 20px 0px 0px 20px;
+}
+
+.skill-name span {
+  color: white;
+  font-size: 1rem;
+}
+.skill-name {
+  padding-top: 5%;
+  padding-left: 10%;
+}
+
+/* Percent Skills */
+
+.knowledge-html {
+  background-color: blue;
+  width: 85%;
+  height: 100%;
+}
+
+.knowledge-vapt {
+  background-color: orange;
+  width: 90%;
+  height: 100%;
+}
+
+.knowledge-css {
+  background-color: orangered;
+  width: 85%;
+  height: 100%;
+}
+
+.knowledge-js {
+  background-color: greenyellow;
+  width: 85%;
+  height: 100%;
+}
+
+.knowledge-react {
+  background-color: firebrick;
+  width: 85%;
+  height: 100%;
+}
+
+.knowledge-bs {
+  background-color: rgb(226, 43, 195);
+  width: 85%;
+  height: 100%;
+}
+
+.knowledge-redux {
+  background-color: rgb(34, 178, 70);
+  width: 85%;
+  height: 100%;
+}
+
+.knowledge-ui {
+  background-color: rgb(43, 198, 226);
+  width: 85%;
+  height: 100%;
+}
+
+.knowledge-fb {
+  background-color: rgb(219, 40, 70);
+  width: 85%;
+  height: 100%;
+}
+
+.knowledge-web {
+  background-color: rgb(226, 141, 43);
+  width: 85%;
+  height: 100%;
+}
+
+/* Portfolio Section */
+
+.for-image {
+  position: relative;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.inside-image {
+  position: relative;
+  width: 15rem;
+  height: 15rem;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.inside-image img {
+  width: 100%;
+  height: 100%;
+}
+.inside-image:hover {
+  box-shadow: 1px 1px 10px 2px lightgrey;
+  border-radius: 2px;
+  opacity: 0.5;
+}
+
+.for-text {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0%;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  padding-top: 5rem;
+}
+
+.for-text:hover {
+  opacity: 0.8;
+  background-color: lightgray;
+  font-weight: 600;
+  box-shadow: 0px 0px 6px 4px blue;
+}
+
+.text span {
+  margin-top: 5%;
+  font-size: 1.5rem;
+  color: white;
+}
+
+/* Contact Us */
+
+.blocks {
+  display: inline-block;
+  width: 50%;
+}
+.main-div {
+  width: 80%;
+  display: flex;
+}
+.contact {
+  background: linear-gradient(#2857a4, #403066);
+  /* overflow-x: hidden; */
+}
+
+
+/* Headings of blue color */
+
+.blue {
+  color: #285da8;
+  font-size: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.white {
+  color: white;
+}
+.left-div {
+  padding-top: 1rem;
+}
+
+.left-div button {
+  height: 2.5rem;
+  width: 10rem;
+  margin: 5%;
+  padding: 5px;
+  background-color: transparent;
+  border: 1px solid white;
+  font-weight: bold;
+}
+.left-div button:hover {
+  background: White;
+  color: #2857a4;
+}
+.left-div input {
+  border: none;
+  background-color: transparent;
+  margin: 1.5rem 0px;
+  border-bottom: 1px solid white;
+  width: 60%;
+}
+.address span {
+  display: block;
+  margin: 1rem;
+}
+
+.icons {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 2rem;
+}
+.horizontol-list li {
+  display: inline;
+  margin: 2rem;
+  color: white;
+}
+
+.horizontol-list li i {
+  color: white;
+}
+
+.contact > h1 {
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+/* Work Experience */
+
+.timeline {
+  position: relative;
+  width: 75%;
+}
+
+.timeline-box {
+  position: relative;
+  width: 40%;
+  min-height: 150px;
+  left: 5%;
+  margin: 5px;
+}
+
+/* Circular Divs */
+
+.timeline-box:nth-child(2n + 1)::after {
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  height: 0.7rem;
+  width: 0.7rem;
+  background-color: lightgrey;
+  top: 46%;
+  right: -12.8%;
+  z-index: 2;
+}
+
+/* Circular Divs */
+
+.timeline-box:nth-child(2n)::after {
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  height: 0.7rem;
+  width: 0.7rem;
+  background-color: lightgrey;
+  top: 46%;
+  left: -14.9%;
+  z-index: 2;
+}
+
+.timeline-box:nth-child(2n) {
+  left: 55%;
+}
+
+/* Dotted Divider between Divs */
+
+.timeline-divider {
+  position: absolute;
+  width: 0;
+  height: 75%;
+  border: 1px dashed #0096fa6b;
+  top: 12%;
+  left: 50%;
+}
+
+/* Udne vala Airplane */
+
+.timeline-trav {
+  position: sticky;
+  top: 23%;
+  transform: rotate(90deg);
+  z-index: 3;
+}
+
+.timeline-trav i {
+  color: #2857a4;
+  font-size: 1.5rem;
+}
+
+.designation {
+  text-align: end;
+  font-size: 1.3rem;
+  color: #285da8;
+  font-weight: bolder;
+}
+
+#orange {
+  text-align: end;
+  font-size: 1rem;
+  color: rgb(235, 139, 71);
+  font-weight: 500;
+  margin-top: 2rem;
+}
+
+.company {
+  color: grey;
+  text-align: end;
+}
+
+.timeline-box p {
+  color: grey;
+  font-size: 0.8rem;
+}
+
+.imgexp {
+  position: absolute;
+  left: 0%;
+  top: 2%;
+  height: 40px;
+  width: 40px;
+}
+
+
+
+/* Playing with media queries */
+
+/* Making Work Exp and Education Section Responsive */
+
+@media screen and (max-width: 572px) {
+    body{
+        margin: 0px;
+    }
+  .timeline-divider {
+    position: absolute;
+    width: 0;
+    height: 75%;
+    border: 1px dashed #0096fa6b;
+    top: 12%;
+    left: 5%;
+  }
+
+  .timeline-box::after {
+    left: -4.5% !important;
+    z-index: 2;
+  }
+
+  .timeline {
+    position: relative;
+    width: 95%;
+  }
+
+  .timeline-box {
+    box-sizing: border-box;
+    position: relative;
+    width: 80%;
+    min-height: 150px;
+    left: 5% !important;
+    padding: 5px 5px 5px 25px;
+  }
+
+  .contact{
+    /* box-sizing: border-box; */
+   overflow-x: hidden;
+  }
+
+  .main-div{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .blocks {
+    /* display: inline-block; */
+    width: 100%!important;
+  }
+
+  .blocks{
+    display: block;
+    text-align: center;
+  }
+
+  .for-image{
+    display: flex;
+    justify-content: center;
+  }
+
+  #ul-list{
+    display: none;
+  }
+  
+  #resp-mob{
+    display: block;
+    opacity: 0;
+  }
+
+  #resp-mob a{
+    text-decoration: none;
+    /* background-color: grey; */
+    color: white;
+  }
+
+  #resp-mob li{
+   list-style: none;
+  }
+
+  .fa-bars{
+    position: absolute;
+    right: 4%;
+    top: 2%;
+    font-size: 30px;
+  }
+
+  .fa-bars:hover #resp-mob{
+    display: block!important;
+    opacity: 1!important;
+  }
+
+
+
+}
