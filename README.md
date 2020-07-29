@@ -1,4 +1,5 @@
 # Resume-Template
+
 A Resume Template made using 
 - HTML5
 - CSS
@@ -12,7 +13,7 @@ Feel Free to Use as a Template
 - Smooth Scroll Enabled
 - Auto Fill Bars
 
-How to use?
+# How to use?
 
 `
 git clone https://github.com/theinfosecguy/Resume-Template.git1` <br/>
