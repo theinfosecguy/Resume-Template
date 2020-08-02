@@ -26,13 +26,10 @@
                     <a href="#skills"> Skills </a>   
                     </li>
                     <li>
-                        <a href="#work"> Experience </a>   
+                        <a href="#experience"> Experience </a>   
                     </li>
                     <li>
                         <a href="#education"> Education  </a>   
-                    </li>
-                    <li>
-                        <a href="#portfolio"> Portfolio </a>   
                     </li>
                     <li>
                         <a href="#contact"> Contact </a>   
@@ -43,7 +40,6 @@
                 <div class="mob">
                     <i class="fa fa-bars" aria-hidden="true"></i>
                     <ul id="resp-mob">
-
                         <li>
                         <a href="#"> Home </a>   
                         </li>
@@ -197,7 +193,7 @@
                 <div class="timeline-box">
                     <div class="designation">
                         <span>Designation</span>
-                        <img src="img/cn.png" alt="" class="imgexp">
+                        <img src="img/l1.svg" alt="Test" class="imgexp">
                     </div>
                     <div class="company">
                         <span id="orange">Company Name</span> <br>
@@ -213,7 +209,7 @@
                 <div class="timeline-box">
                     <div class="designation">
                         <span>Designation</span>
-                        <img src="img/cn.png" alt="" class="imgexp">
+                        <img src="img/l2.svg" alt="" class="imgexp">
                     </div>
                     <div class="company">
                         <span id="orange">Company Name</span> <br>
@@ -229,7 +225,7 @@
                 <div class="timeline-box">
                     <div class="designation">
                         <span>Designation</span>
-                        <img src="img/cn.png" alt="" class="imgexp">
+                        <img src="img/l1.svg" alt="" class="imgexp">
                     </div>
                     <div class="company">
                         <span id="orange">Company Name</span> <br>
@@ -245,7 +241,7 @@
                 <div class="timeline-box">
                     <div class="designation">
                         <span>Designation</span>
-                        <img src="img/cn.png" alt="" class="imgexp">
+                        <img src="img/l2.svg" alt="" class="imgexp">
                     </div>
                     <div class="company">
                         <span id="orange">Company Name</span> <br>
@@ -279,7 +275,7 @@
                 <div class="timeline-box">
                     <div class="designation">
                         <span>Degree</span>
-                        <img src="img/cn.png" alt="" class="imgexp">
+                        <img src="img/l1.svg" alt="" class="imgexp">
                     </div>
                     <div class="company">
                         <span id="orange">Institute Name</span> <br>
@@ -295,7 +291,7 @@
                 <div class="timeline-box">
                     <div class="designation">
                         <span>Degree</span>
-                        <img src="img/cn.png" alt="" class="imgexp">
+                        <img src="img/l2.svg" alt="" class="imgexp">
                     </div>
                     <div class="company">
                         <span id="orange">Institute Name</span> <br>
@@ -311,7 +307,7 @@
                 <div class="timeline-box">
                     <div class="designation">
                         <span>Degree</span>
-                        <img src="img/Logo.jpg" alt="" class="imgexp">
+                        <img src="img/l2.svg" alt="" class="imgexp">
                     </div>
                     <div class="company">
                         <span id="orange">Institute Name</span> <br>
@@ -327,7 +323,7 @@
                 <div class="timeline-box">
                     <div class="designation">
                         <span>Degree</span>
-                        <img src="img/cn.png" alt="" class="imgexp">
+                        <img src="img/l1.svg" alt="" class="imgexp">
                     </div>
                     <div class="company">
                         <span id="orange">Institute Name</span> <br>
@@ -407,8 +403,14 @@
         </div>
     </section>
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="./js/resume.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]', {
+	    speed: 900,
+	    speedAsDuration: true
+    });;
+    </script>
 </body>
 </html>
