@@ -290,6 +290,7 @@ section:nth-child(2n + 1) {
 }
 .contact {
   background: linear-gradient(#2857a4, #403066);
+  color: white;
   /* overflow-x: hidden; */
 }
 
@@ -318,6 +319,7 @@ section:nth-child(2n + 1) {
   background-color: transparent;
   border: 1px solid white;
   font-weight: bold;
+  color: wheat;
 }
 .left-div button:hover {
   background: White;
@@ -563,4 +565,6 @@ section:nth-child(2n + 1) {
 
 }
 
-/* Back to Top */
+::placeholder{
+  color: white;
+}
