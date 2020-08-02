@@ -4,6 +4,7 @@ A Resume Template made using
 - HTML5
 - CSS
 - Vanilla JS 
+- JQuery
 
 Feel Free to Use as a Template 
 
