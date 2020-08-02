@@ -162,65 +162,69 @@ section:nth-child(2n + 1) {
   padding-left: 10%;
 }
 
+.skills-percent{
+  transition: 1s linear;
+}
+
 /* Percent Skills */
 
 .knowledge-html {
   background-color: blue;
-  width: 85%;
+  width: 0;
   height: 100%;
 }
 
 .knowledge-vapt {
   background-color: orange;
-  width: 90%;
+  width: 0;
   height: 100%;
 }
 
 .knowledge-css {
   background-color: orangered;
-  width: 85%;
+  width: 0;
   height: 100%;
 }
 
 .knowledge-js {
   background-color: greenyellow;
-  width: 85%;
+  width: 0;
   height: 100%;
 }
 
 .knowledge-react {
   background-color: firebrick;
-  width: 85%;
+  width: 0;
   height: 100%;
 }
 
 .knowledge-bs {
   background-color: rgb(226, 43, 195);
-  width: 85%;
+  width: 0;
   height: 100%;
 }
 
 .knowledge-redux {
   background-color: rgb(34, 178, 70);
-  width: 85%;
+  width: 0;
   height: 100%;
 }
 
 .knowledge-ui {
   background-color: rgb(43, 198, 226);
-  width: 85%;
+  width: 0;
   height: 100%;
 }
 
 .knowledge-fb {
   background-color: rgb(219, 40, 70);
-  width: 85%;
+  width: 0;
   height: 100%;
 }
 
 .knowledge-web {
   background-color: rgb(226, 141, 43);
-  width: 85%;
+  width: 0;
   height: 100%;
 }
 
